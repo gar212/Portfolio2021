@@ -2,11 +2,11 @@ import React from 'react'
 
 const InfoHardSkill = () => {
     return (
-        <div class="info-hardskills-container">
-            <div class="info-hardskill-label"><p>html</p><span>85%</span></div>
-            <div class="progress-bar">
-                <div class="bar" style="max-width:85%"></div>
-                <div class="bar"></div>
+        <div className="info-hardskills-container">
+            <div className="info-hardskill-label"><p>html</p><span>85%</span></div>
+            <div className="progress-bar">
+                <div className="bar" style="max-width:85%"></div>
+                <div className="bar"></div>
             </div>
         </div>
     )

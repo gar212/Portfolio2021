@@ -5,17 +5,17 @@ import InfoLang from './InfoLang'
 const InfoSection = () => {
     return (
         <div>
-            <div class="info-section">
-            <div class="info-header">
+            <div className="info-section">
+            <div className="info-header">
 
-                <div class="info-header-profile">
+                <div className="info-header-profile">
                     <img src="img/profile.jpg" alt="" />
                 </div>
                 <h4>Garet Lam</h4>
                 <p>Coder. Designer. Developer.</p>
             </div>
-            <div class="info-container">
-                <div class="info-bio">
+            <div className="info-container">
+                <div className="info-bio">
                     <ul>
                         <li><p>Residence:</p><span>New Zealand</span></li>
                         <li><p>City:</p><span>Auckland</span></li>
@@ -30,12 +30,12 @@ const InfoSection = () => {
                     <InfoHardSkill />
                 </div>
             </div>
-            <div class="social-media">      
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <div className="social-media">      
+                <a href="#"><i className="fab fa-facebook"></i></a>
+                <a href="#"><i className="fab fa-twitter"></i></a>
+                <a href="#"><i className="fab fa-instagram"></i></a>
+                <a href="#"><i className="fab fa-github"></i></a>
+                <a href="#"><i className="fab fa-linkedin-in"></i></a>
             </div>
         </div> 
         </div>
