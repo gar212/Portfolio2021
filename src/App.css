@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  letter-spacing: 0.5px;
+  font-family: "Rubik", sans-serif;
+  background-color: #191923;
+  color: #f7f7f7;
+}
+
+.App,
+p,
+h4,
+h5 {
+  margin: 0;
+}
+
+.front-cover {
+  font-size: 0.7rem;
+  display: grid; /* Initial setting - display: grid; */
+  position: absolute;
+  align-content: center;
+  top: 0;
+  z-index: 1000;
+  background-color: #191923;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 1.5;
+  animation: frontcoverAnim 2.5s 1;
+  animation-fill-mode: forwards;
+}
+
+.front-cover i {
+  font-size: 6rem;
+  margin: 10px;
+}
+
+.container {
+  margin: 15px auto;
+  background: #191923;
+  width: calc(100vw - 40px);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1e1e28;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+/* ================= */
+/*     ANIMATIONS    */
+/* ================= */
+
+@keyframes frontcoverAnim {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import InfoHardSkill from './InfoHardSkill'
 import InfoLang from './InfoLang'
+import './InfoSection.css';
+import profileImage from '../../img/profile.jpg'
 
 const InfoSection = () => {
     return (
@@ -9,7 +11,7 @@ const InfoSection = () => {
             <div className="info-header">
 
                 <div className="info-header-profile">
-                    <img src="img/profile.jpg" alt="" />
+                    <img src={profileImage} alt="Garet Lam Profile" />
                 </div>
                 <h4>Garet Lam</h4>
                 <p>Coder. Designer. Developer.</p>
@@ -24,18 +26,19 @@ const InfoSection = () => {
                     </ul>
                 </div>
                 <div className="info-lang">
-                    <InfoLang />
+                    <InfoLang percent="100" />
+                    <InfoLang percent="50" />
                 </div>
                 <div className="info-hardskills">
                     <InfoHardSkill />
                 </div>
             </div>
             <div className="social-media">      
-                <a href="#"><i className="fab fa-facebook"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"><i className="fab fa-github"></i></a>
-                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                <a href="/"><i className="fab fa-facebook"></i></a>
+                <a href="/"><i className="fab fa-twitter"></i></a>
+                <a href="/"><i className="fab fa-instagram"></i></a>
+                <a href="/"><i className="fab fa-github"></i></a>
+                <a href="/"><i className="fab fa-linkedin-in"></i></a>
             </div>
         </div> 
         </div>
