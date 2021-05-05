@@ -26,8 +26,9 @@ const InfoSection = () => {
                     </ul>
                 </div>
                 <div className="info-lang">
-                    <InfoLang percent="100" />
-                    <InfoLang percent="50" />
+                    <InfoLang circleAnim="circleAnim1" name="Gibberish" percent="100"/>
+                    <InfoLang circleAnim="circleAnim2" name="English" percent="80" />
+                    <InfoLang circleAnim="circleAnim3" name="Vietnamese" percent="40" />
                 </div>
                 <div className="info-hardskills">
                     <InfoHardSkill />

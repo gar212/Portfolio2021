@@ -193,28 +193,34 @@
 
 @keyframes circleAnim1 {
   0% {
-    stroke-dasharray: 0, 400;
+    stroke-dasharray: 643;
+    stroke-dashoffset: 1000;
   }
   100% {
-    stroke-dasharray: 295, 400;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: calc(1000 - (1000 * 100) / 343);
   }
 }
 
 @keyframes circleAnim2 {
   0% {
-    stroke-dasharray: 0, 400;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 1000;
   }
   100% {
-    stroke-dasharray: 260, 400;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: calc(1000 - (1000 * 80) / 343);
   }
 }
 
 @keyframes circleAnim3 {
   0% {
-    stroke-dasharray: 0, 400;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 1000;
   }
   100% {
-    stroke-dasharray: 146, 400;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: calc(1000 - (1000 * 40) / 343);
   }
 }
 
