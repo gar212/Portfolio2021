@@ -1,0 +1,39 @@
+.main-aut {
+  display: flex;
+  flex-wrap: wrap;
+  color: #848484;
+  font-size: 0.8rem;
+}
+
+.main-aut-card {
+  background-color: #2d2d39;
+  flex: 0 0 31.3%;
+  margin: 0 1%;
+}
+
+.main-aut-info {
+  padding: 30px;
+}
+
+.main-aut h4 {
+  font-size: 1rem;
+  color: #f7f7f7;
+  margin-bottom: 2px;
+}
+
+.main-aut h5 {
+  font-size: 0.9rem;
+  color: #ffc107;
+}
+
+.main-aut img {
+  width: 100%;
+}
+
+.main-aut ul {
+  padding-left: 15px;
+}
+
+.main-aut li {
+  line-height: 1.5;
+}

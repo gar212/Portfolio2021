@@ -1,11 +1,11 @@
 import React from 'react'
 
-const InfoHardSkill = () => {
+const InfoHardSkill = (props) => {
     return (
         <div className="info-hardskills-container">
-            <div className="info-hardskill-label"><p>html</p><span>85%</span></div>
+            <div className="info-hardskill-label"><p>{props.name}</p><span>{props.percent}%</span></div>
             <div className="progress-bar">
-                <div className="bar" style={{maxWidth:'85%'}}></div>
+                <div className="bar" style={{maxWidth:`${props.percent}%`}}></div>
                 <div className="bar"></div>
             </div>
         </div>

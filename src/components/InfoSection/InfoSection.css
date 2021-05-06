@@ -193,34 +193,34 @@
 
 @keyframes circleAnim1 {
   0% {
-    stroke-dasharray: 643;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 400;
   }
   100% {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: calc(1000 - (1000 * 100) / 343);
+    stroke-dasharray: 400;
+    stroke-dashoffset: 105;
   }
 }
 
 @keyframes circleAnim2 {
   0% {
-    stroke-dasharray: 650;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 400;
   }
   100% {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: calc(1000 - (1000 * 80) / 343);
+    stroke-dasharray: 400;
+    stroke-dashoffset: 155;
   }
 }
 
 @keyframes circleAnim3 {
   0% {
-    stroke-dasharray: 650;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 400;
   }
   100% {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: calc(1000 - (1000 * 40) / 343);
+    stroke-dasharray: 400;
+    stroke-dashoffset: 285;
   }
 }
 
@@ -247,6 +247,6 @@
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 90%;
   }
 }
