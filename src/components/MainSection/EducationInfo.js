@@ -33,7 +33,7 @@ const EducationInfo = [
         keyPoints: [
             "Graduated in 2014",
             "Graphic Design",
-            "Information Technology"
+            "Information Technology",
         ]
     },
 ]

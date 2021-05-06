@@ -1,5 +1,6 @@
 import React from 'react'
 import './MainEducationCard.css';
+import EducationList from './EducationList';
 
 const MainEducationCard = (props) => {
     return (
@@ -9,11 +10,13 @@ const MainEducationCard = (props) => {
             <h4>{props.name}</h4>
             <h5>{props.subText}</h5>
             <ul>
-                <li>Character Rigging</li>
-                <li>2D & 3D Animation</li>
-                <li>Game Design</li>
-                <li>Film & Animation</li>
+                {
+                    props.keyPoints.map((e, index) => 
+                    <EducationList key={index} keyPoints={e} />)
+                }
             </ul>
+            
+            {/* Learn More CTA - Disabled. May need in future */}
             {/* <a className="yellow-learn" href="/">LEARN MORE <span>{`>`}</span></a> */}
         </div>
     </div>

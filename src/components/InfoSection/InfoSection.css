@@ -187,6 +187,16 @@
   transition-duration: 0.1s;
 }
 
+.social-media .social-media-disabled {
+  color: #3e3e3f;
+}
+
+.social-media .social-media-disabled:hover {
+  color: #3e3e3f;
+  transform: none;
+  cursor: default;
+}
+
 /* ================= */
 /*     ANIMATIONS    */
 /* ================= */

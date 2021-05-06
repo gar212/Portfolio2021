@@ -40,9 +40,11 @@ const InfoSection = () => {
             </div>
             <div className="social-media">
                 <a href="https://github.com/gar212" target="_blank" rel="noreferrer noopener"><i className="fab fa-github"></i></a>      
-                <a href="https://www.facebook.com/garet.lam/" target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook"></i></a>
-                <a href="/" ><i className="fab fa-twitter"></i></a>
-                <a href="/" ><i className="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/garet.lam/" target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook"></i></a>               
+                {// eslint-disable-next-line
+                <a href="#" className="social-media-disabled"><i className="fab fa-twitter"></i></a>}
+                {// eslint-disable-next-line
+                <a href="#" className="social-media-disabled"><i className="fab fa-linkedin-in"></i></a>}
             </div>
         </div> 
         </div>

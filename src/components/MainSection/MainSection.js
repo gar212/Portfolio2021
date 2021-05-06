@@ -10,7 +10,7 @@ const MainSection = () => {
         <div className="main-section">
             <MainBanner />
             
-            <h3>Things I can do</h3>
+            <h3>Projects</h3>
             <div className="main-jobs">
                 <MainJobContainer />
                 <MainJobContainer />
@@ -26,7 +26,7 @@ const MainSection = () => {
                     name={e.name}
                     image={e.image}
                     subText={e.subText}
-                    keyPoints={e.points} />
+                    keyPoints={e.keyPoints} />
                     )
                 }
             </div>
