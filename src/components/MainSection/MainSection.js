@@ -1,20 +1,33 @@
 import React from 'react'
 import MainBanner from './MainBanner'
 import MainEducationCard from './MainEducationCard'
-import MainJobContainer from './MainJobContainer'
-import EducationInfo from './EducationInfo';
+import MainProjectCard from './MainProjectCard'
+import MainJobTimeline from './MainJobTimeline'
+import ProjectInfo from './Info/MainProjectInfo'
+import EducationInfo from './Info/EducationInfo'
 import './MainSection.css';
 
 const MainSection = () => {
     return (
         <div className="main-section">
             <MainBanner />
-            
             <h3>Projects</h3>
-            <div className="main-jobs">
-                <MainJobContainer />
-                <MainJobContainer />
-                <MainJobContainer />
+            <div className="main-project">
+                {
+                ProjectInfo.map((e, index) => 
+                <MainProjectCard
+                    key={index}
+                    name={e.name}
+                    desc={e.desc}
+                    image={e.image}
+                    link={e.link} />
+                    )
+                }
+            </div>
+
+            <h3>Jobs</h3>
+            <div>
+                <MainJobTimeline />
             </div>
 
             <h3>Education</h3>
@@ -31,7 +44,7 @@ const MainSection = () => {
                 }
             </div>
 
-            <footer><p>Garet Lam © 2021</p></footer>
+            <footer><p>Garet Lam © 2021. Made with ReactJS</p></footer>
         </div>
     )
 }

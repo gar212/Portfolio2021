@@ -1,6 +1,6 @@
-import MissionReady from '../../img/mr.jpg';
-import Aut from '../../img/aut.jpg';
-import HowickCollege from '../../img/howick.jpg';
+import MissionReady from '../../..//img/EducationImg/mr.jpg';
+import Aut from '../../../img/EducationImg/aut.jpg';
+import HowickCollege from '../../../img/EducationImg/howick.jpg';
 
 // Object array for Education Cards
 const EducationInfo = [

@@ -65,36 +65,40 @@
   transition-timing-function: ease-in;
 }
 
-.main-jobs {
+.main-project {
   display: flex;
   flex-wrap: wrap;
 }
 
-.job-container {
+.project-container {
   flex: 0 0 31.3%;
   background-color: #2d2d39;
   margin: 1%;
 }
 
-.job {
+.project-container img {
+  width: 100%;
+}
+
+.project {
   padding: 30px;
   font-size: 0.8rem;
   color: #848484;
   width: 100%;
 }
 
-.job h5 {
+.project h5 {
   color: #f7f7f7;
   font-size: 0.9rem;
   margin-bottom: 15px;
 }
 
-.job p {
+.project p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.job a,
+.project a,
 .yellow-learn {
   color: #ffc107;
   text-decoration: none;
@@ -102,7 +106,7 @@
   padding: 20px 20px 20px 0;
 }
 
-.job a > span,
+.project a > span,
 .yellow-learn > span {
   transition: left;
   transition-duration: 0.1s;
@@ -110,7 +114,7 @@
   left: 0;
 }
 
-.job a:hover > span,
+.project a:hover > span,
 .yellow-learn:hover > span {
   transition: all;
   transition-duration: 0.1s;
@@ -130,7 +134,7 @@ footer {
 /*   MEDIA QUERIES   */
 /* ================= */
 @media only screen and (max-width: 953px) {
-  .job-container {
+  .project-container {
     flex: 0 0 48%;
   }
 
@@ -141,7 +145,7 @@ footer {
 }
 
 @media only screen and (max-width: 856px) {
-  .job-container {
+  .project-container {
     flex: 0 0 100%;
   }
 
